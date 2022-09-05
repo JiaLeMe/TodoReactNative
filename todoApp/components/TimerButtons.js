@@ -17,7 +17,7 @@ const TimerButtons = ({play, pause, reset, running}) => {
 		)
 	} else {
 		return(
-			<View  style={styles.container}>
+			<View style={styles.container}>
 				<TouchableOpacity style={styles.buttonStyle} onPress={play}>
 					<Text style={styles.buttonText}>Start</Text>
 				</TouchableOpacity>
